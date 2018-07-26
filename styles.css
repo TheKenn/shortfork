@@ -25,9 +25,9 @@ main{
   padding-top: 15px;
   display: grid;
   grid-template-areas:
-    "aside article artical";
+    "aside article article";
     "aside footer footer";
-  grid-gap: 30pc;
+  grid-gap: 30px;
   
 }
 aside {
