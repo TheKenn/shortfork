@@ -23,16 +23,25 @@ H1 {
 }
 main{
   padding-top: 15px;
+  display: grid;
+  grid-template-areas:
+    "aside artical artical";
+    "aside footer footer";
+  grid-gap: 30pc;
+  
 }
 aside {
+  grid-area: aside
   padding: 30px;
   background-color: #b2b2b2;
 }
 artical {
+  grid-area: artical
   padding: 30px;
   background-color: white;
 }
 footer {
+  grid-area: footer
   padding: 30px;
   background-color: #b2b2b2;
   color: #ffef96;
