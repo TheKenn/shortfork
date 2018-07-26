@@ -18,3 +18,27 @@ header {
   background-attatchment: fixed;
   background-position:center;
 }
+H1 {
+  text-align: center;
+}
+main{
+  padding-top: 15px;
+}
+aside {
+  padding: 30px;
+  background-color: #b2b2b2;
+}
+artical {
+  padding: 30px;
+  background-color: white;
+}
+footer {
+  padding: 30px;
+  background-color: #b2b2b2;
+  color: #ffef96;
+}
+
+
+
+
+
